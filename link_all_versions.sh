@@ -10,7 +10,7 @@ do
     if [ -f "$DESTINATION_FILE" ]; then
         echo "$DESTINATION_FILE allready exists."
     else 
-        ln -s /SolidityX/build/solc/solc ${DESTINATION_FILE}
+        ln -s /usr/bin/solc ${DESTINATION_FILE}
     fi
 done
 
